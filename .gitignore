@@ -17,7 +17,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files
-.env*
 !.env.example
 
 # vercel
@@ -29,9 +28,12 @@ next-env.d.ts
 
 .pnpm-store/
 .history/*
-.env
 package-lock.json
 pnpm-lock.yaml
 
 # prevent documentation files from being accidentally served as static assets
 /public/**/*.md
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

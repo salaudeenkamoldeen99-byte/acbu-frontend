@@ -5,10 +5,10 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
+    "build": "node init && next build",
+    "dev": "node init && next dev",
     "lint": "eslint .",
-    "start": "next start",
+    "start": "node init && next start",
     "test:a11y": "playwright test accessibility.spec.ts",
     "test:a11y:ci": "playwright test accessibility.spec.ts --reporter=github",
     "test:a11y:report": "playwright show-report",
